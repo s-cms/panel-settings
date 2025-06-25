@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use Filament\Schemas\Schema;
+use SmartCms\PanelSettings\SettingsPage;
+
+class {{ class }} extends SettingsPage
+{
+    protected static ?int $navigationSort = 100;
+
+    public function form(Schema $schema): Schema
+    {
+        return $schema
+            ->components([
+            ])
+            ->statePath('data');
+    }
+}

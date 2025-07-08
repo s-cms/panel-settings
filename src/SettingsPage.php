@@ -6,6 +6,9 @@ use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use SmartCms\Settings\Models\Setting;
 
+/**
+ * @property mixed $form
+ */
 class SettingsPage extends Page
 {
     protected string $view = 'panel-settings::filament.pages.settings';

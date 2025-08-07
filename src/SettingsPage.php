@@ -48,7 +48,7 @@ class SettingsPage extends Page
 
     protected function getSavedNotificationTitle(): ?string
     {
-        return __('filament-settings::translations.notifications.saved');
+        return __('filament-panels::resources/pages/edit-record.notifications.saved.title');
     }
 
     protected function fillForm(): void
